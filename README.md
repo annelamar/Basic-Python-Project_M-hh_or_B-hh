@@ -9,7 +9,6 @@ Our program is loosely based on the Simons effect which states that a response t
 
 - Additional modules that have to be downloaded: expyriment (“pip install –no-deps               expyriment”), pandas (“pip install pandas”), matplot, keyboard
 - Command for executing the program: run
-- Reusable functions ??
 - Changing paths in code if neccessary
 
 
@@ -17,11 +16,11 @@ Programming Journey
 
 What additional things did you learn during the project? / What challenges did you face? / How did you approach them?
 
-The main thing that we had to work with during our project was expyriment, which took a while for us to get along with. The most issues also popped up due to our lack of knowledge with expyriment. Working with data, images as well as the keyboard added to the issues in expyriment. To conquer these issues, we mainly used the expyriment website, google and online platforms. Another issue that we faced later on in our project was working with csv files and plotting. We needed to get a better understanding and work more in depth with both things. Through online sources as well as help from older students we were able to figure it out.
+The main thing that we had to work with during our project was expyriment, which took a while for us to get along with. The most issues also popped up due to our lack of knowledge with expyriment. Working with data, images as well as the keyboard added to the issues in expyriment. To conquer these issues, we mainly used the expyriment website, google and online platforms. Another issue that we faced later on in our project was working with csv files and plotting. We needed to get a better understanding and work more in depth with both things. Especially plotting, we were unsure which data to plot and how. We tested many different plot types with all the different data. We came to the conclusion that using the Reaction Time would be best, leaving our further data(another possibility can be seen in the comments after the first figure is created). However, after choosing one plot possibility, we had difficulties adding the mean to the plot to create a comparison point. Through trying out many different possibilities after research and deepening our knowledge with mean calculations and merging plots, we figured it out.
 
 What further additions could be made?
 
-We could have added more stimuli and to make it more interactive some audio as well. Our plotting could have been more advanced with saving each result to a database and having a visualisation of the performance of the individual participant in relation to the average from the database
+We could have added more stimuli and to make it more interactive some audio as well. Our plotting could have been more advanced. An idea we had would be to plot a graph for each participant’s reaction time and check if the click was correct with colours or an error bar. Sorting the correct click column to true and false would also be another possibly, as the simons effect is calculated as the difference between the reaction time of the congruent and the reaction time of the incongruent data. So by sorting the correct click columns and connecting it to the reaction time, a linear graph with the simons effect could be created.
 
 - Additional things we learned: expyriment, pandas, working with images and data (paths),     working with csv in more depth, using keyboard as respoonse device,…
 - Challenges we faced: installation, including images, turning xpd to csv, plotting
@@ -30,5 +29,7 @@ We could have added more stimuli and to make it more interactive some audio as w
 
 Show us your result
 
-- Screenshot of table and/or plot
+- Screenshot of table and plot
 ![image](https://user-images.githubusercontent.com/106176190/183050795-86bbc403-57c4-4a89-9778-7e743b163f43.png)
+![image](https://user-images.githubusercontent.com/106176190/183156775-45218440-d9ee-4d65-89be-cb54af69a1a5.png)
+
