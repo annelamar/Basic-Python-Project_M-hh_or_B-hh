@@ -30,5 +30,7 @@ We could have added more stimuli and to make it more interactive some audio as w
 
 Show us your result
 
-- Screenshot of table and/or plot
+- Screenshot of table and plot
 ![image](https://user-images.githubusercontent.com/106176190/183050795-86bbc403-57c4-4a89-9778-7e743b163f43.png)
+![image](https://user-images.githubusercontent.com/106176190/183156775-45218440-d9ee-4d65-89be-cb54af69a1a5.png)
+
