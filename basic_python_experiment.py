@@ -88,9 +88,9 @@ for block in exp.blocks:
 # End Experiment
 control.end()
 #turning the data into a csv file
-misc.data_preprocessing.write_concatenated_data('./data', 'basic_python_experiment', output_file="C:/Users/fgoll/OneDrive/Desktop/Uni/data/python_experiment_to_csv.csv", delimiter=',', to_R_data_frame=False, names_comprise_glob_pattern=False)
+misc.data_preprocessing.write_concatenated_data('./data', 'basic_python_experiment', output_file="python_experiment_to_csv.csv", delimiter=',', to_R_data_frame=False, names_comprise_glob_pattern=False)
 #creating a dataframe show_csv in pandas, so that we can evaluate our data in the following steps
-show_csv = pd.read_csv("C:/Users/fgoll/OneDrive/Desktop/Uni/data/python_experiment_to_csv.csv", sep=',' ,index_col = None, names = ["Subject ID", "Position", "Correct Key", "Button", "RT"], header=0)
+show_csv = pd.read_csv("python_experiment_to_csv.csv", sep=',' ,index_col = None, names = ["Subject ID", "Position", "Correct Key", "Button", "RT"], header=0)
 show_csv.drop([0], axis=0, inplace=True)
 #changing RT data to be able to work with it
 show_csv['RT']=show_csv['RT'].astype(float)
