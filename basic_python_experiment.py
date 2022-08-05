@@ -23,7 +23,7 @@ fixcross.preload()
 response_device = exp.keyboard
 task = None
 # Create design
-for task in ["press the left arrow key if a goat is shown. Otherwise, press the right arrow key.", "press the left arrow key if a sheep is shown"]:
+for task in ["Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.", "Press the left arrow key if a sheep is shown"]:
     b = design.Block()
     b.set_factor("Response", task)
     for where in [["left", -300], ["right", 300]]:
@@ -77,7 +77,7 @@ for block in exp.blocks:
         button, rt = exp.keyboard.wait([constants.K_LEFT,constants.K_RIGHT])
         if b.get_factor("Response") == "Press the left arrow key if a goat is shown. Otherwise, press the right arrow key." and button == constants.K_LEFT and (stimuli == goat1 or goat2):
             correct_click = True
-        elif b.get_factor("Response") == "Press the left arrow key if a sheep is shown. Otherwise, press the right arrow key." and button == constants.K_LEFT and (stimuli == sheep1 or sheep2):
+        elif b.get_factor("Response") == "Press the left arrow key if a sheep is shown" and button == constants.K_LEFT and (stimuli == sheep1 or sheep2):
             correct_click = True
         else: 
             correct_click = False 
