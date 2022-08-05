@@ -90,10 +90,10 @@ for block in exp.blocks:
 # End Experiment
 control.end()
 #transcripting xpd-files into one csv-file
-misc.data_preprocessing.write_concatenated_data('./data', 'python_experiment', output_file="C:/Users/Anne/Documents/Studium/Mähh_or_Bähh/python_experiment_to_csv.csv", delimiter=',', to_R_data_frame=False, names_comprise_glob_pattern=False)
+misc.data_preprocessing.write_concatenated_data('./data', 'python_experiment', output_file="python_experiment_to_csv.csv", delimiter=',', to_R_data_frame=False, names_comprise_glob_pattern=False)
 #creating a dataframe show_csv in pandas, so that we can evaluate our data in the following steps
 
-show_csv = pd.read_csv("C:/Users/Anne/Documents/Studium/Mähh_or_Bähh/python_experiment_to_csv.csv", sep=',' ,index_col = None, names = ["Subject ID", "Position", "Correct Key", "Button", "RT"], header=0)
+show_csv = pd.read_csv("python_experiment_to_csv.csv", sep=',' ,index_col = None, names = ["Subject ID", "Position", "Correct Key", "Button", "RT"], header=0)
 show_csv.drop([0], axis=0, inplace=True)
 show_csv['RT']=show_csv['RT'].astype(float)
 print(show_csv)
