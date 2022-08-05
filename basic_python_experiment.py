@@ -23,7 +23,7 @@ fixcross.preload()
 response_device = exp.keyboard
 task = None
 # Create design
-for task in ["Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.", "Press the left arrow key if a sheep is shown"]:
+for task in ["Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.", "Press the left arrow key if a sheep is shown. Otherwise, press the right arrow key."]:
     b = design.Block()
     b.set_factor("Response", task)
     for where in [["left", -300], ["right", 300]]:
@@ -67,7 +67,7 @@ exp.data_variable_names = ["Position", "Correct_Click", "Button", "Time"]
 control.start()
 exp.permute_blocks(misc.constants.P_BALANCED_LATIN_SQUARE)
 for block in exp.blocks:
-    stimuli.TextScreen("","Welcome to our experiment. This is loosely based off the Simons effect. To read more: https://en.wikipedia.org/wiki/Simon_effect#:~:text=A%20typical%20demonstration%20of%20the%20Simon%20effect%20involves,on%20the%20left%20when%20they%20see%20something%20green. You will be presented with images of either goats or sheep. React as quickly as possible. Please read the instructions beforehand carefully. Press Enter until Experiment starts. Have fun!", block.get_factor("Response")).present()
+    stimuli.TextScreen("","Welcome to our experiment. This is loosely based off the Simons effect. To read more: https://en.wikipedia.org/wiki/Simon_effect#:~:text=A%20typical%20demonstration%20of%20the%20Simon%20effect%20involves,on%20the%20left%20when%20they%20see%20something%20green. You will be presented with images of either goats or sheep. React as quickly as possible. Please read the instructions beforehand carefully. Press Enter until Experiment starts. Have fun!").present()
     stimuli.TextScreen("Instructions", block.get_factor("Response")).present()
     response_device.wait()
     # making sure the correct key is pressed 
@@ -78,7 +78,7 @@ for block in exp.blocks:
         button, rt = exp.keyboard.wait([constants.K_LEFT,constants.K_RIGHT])
         if b.get_factor("Response") == "Press the left arrow key if a goat is shown. Otherwise, press the right arrow key." and button == constants.K_LEFT and (stimuli == goat1 or goat2):
             correct_click = True
-        elif b.get_factor("Response") == "Press the left arrow key if a sheep is shown" and button == constants.K_LEFT and (stimuli == sheep1 or sheep2):
+        elif b.get_factor("Response") == "Press the left arrow key if a sheep is shown. Otherwise, press the right arrow key." and button == constants.K_LEFT and (stimuli == sheep1 or sheep2):
             correct_click = True
         else: 
             correct_click = False 
@@ -87,7 +87,8 @@ for block in exp.blocks:
 
 
 # End Experiment
-control.end()
+control.end("Thank you for your participation. From now on, we hope you will be able to distinguish goats and sheep more easily:)", 3000)
+
 #turning the data into a csv file
 misc.data_preprocessing.write_concatenated_data('./data', 'basic_python_experiment', output_file="python_experiment_to_csv.csv", delimiter=',', to_R_data_frame=False, names_comprise_glob_pattern=False)
 #creating a dataframe show_csv in pandas, so that we can evaluate our data in the following steps
