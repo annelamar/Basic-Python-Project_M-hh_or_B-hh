@@ -1,0 +1,158 @@
+#Expyriment 0.10.0 (Python 3.9.7), .xpe-file, coding: cp1252
+#date: Fri Aug 05 2022 22:07:58
+#sha1: 807814
+#modules: 
+#display: size=(1440, 900), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-B8ESPDO', release='10', version='10.0.22000', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3474,Picture,loaded,higherHans.jpg
+3477,Picture,loaded,higherHans.jpg
+3485,Picture,loaded,markusLanz.jpg
+3489,Picture,loaded,markusLanz.jpg
+3494,Picture,loaded,Ingridtanzt2.jpg
+3498,Picture,loaded,Ingridtanzt2.jpg
+3504,Picture,loaded,markusLanz.jpg
+3507,Picture,loaded,markusLanz.jpg
+3512,Picture,loaded,higherHans.jpg
+3515,Picture,loaded,higherHans.jpg
+3520,Picture,loaded,markusLanz.jpg
+3523,Picture,loaded,markusLanz.jpg
+3529,Picture,loaded,Ingridtanzt2.jpg
+3532,Picture,loaded,Ingridtanzt2.jpg
+3538,Picture,loaded,frecherFranz.jpg
+3541,Picture,loaded,frecherFranz.jpg
+3546,Picture,loaded,higherHans.jpg
+3549,Picture,loaded,higherHans.jpg
+3554,Picture,loaded,markusLanz.jpg
+3558,Picture,loaded,markusLanz.jpg
+3563,Picture,loaded,frecherFranz.jpg
+3567,Picture,loaded,frecherFranz.jpg
+3572,Picture,loaded,markusLanz.jpg
+3575,Picture,loaded,markusLanz.jpg
+3580,Picture,loaded,markusLanz.jpg
+3584,Picture,loaded,markusLanz.jpg
+3589,Picture,loaded,markusLanz.jpg
+3592,Picture,loaded,markusLanz.jpg
+3597,Picture,loaded,Ingridtanzt2.jpg
+3601,Picture,loaded,Ingridtanzt2.jpg
+3606,Picture,loaded,Ingridtanzt2.jpg
+3610,Picture,loaded,Ingridtanzt2.jpg
+3615,Picture,loaded,higherHans.jpg
+3619,Picture,loaded,higherHans.jpg
+3624,Picture,loaded,frecherFranz.jpg
+3627,Picture,loaded,frecherFranz.jpg
+3633,Picture,loaded,higherHans.jpg
+3636,Picture,loaded,higherHans.jpg
+3641,Picture,loaded,higherHans.jpg
+3644,Picture,loaded,higherHans.jpg
+25951,design,log,
+#design: #exp: Mähh and Bähh
+#design: #bws: ResponseMapping=1,2
+#design: #bws-rand: 0
+#design: #dvn: Position,Correct_Click,Button,Time
+#design: block_cnt,block_id,block_Response,trial_cnt,trial_id,Position
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,0,5,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,1,8,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,2,1,left
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,3,6,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,4,2,left
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,5,9,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,6,3,left
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,7,0,left
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,8,7,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,9,4,left
+#design: 1,1,Press the left arrow key if a sheep is shown,0,9,right
+#design: 1,1,Press the left arrow key if a sheep is shown,1,2,left
+#design: 1,1,Press the left arrow key if a sheep is shown,2,1,left
+#design: 1,1,Press the left arrow key if a sheep is shown,3,4,left
+#design: 1,1,Press the left arrow key if a sheep is shown,4,5,right
+#design: 1,1,Press the left arrow key if a sheep is shown,5,0,left
+#design: 1,1,Press the left arrow key if a sheep is shown,6,7,right
+#design: 1,1,Press the left arrow key if a sheep is shown,7,3,left
+#design: 1,1,Press the left arrow key if a sheep is shown,8,6,right
+#design: 1,1,Press the left arrow key if a sheep is shown,9,8,right
+25952,design,logged,
+25952,Experiment,started
+25973,Stimulus,presented,24
+32649,Keyboard,received,13,wait
+32655,Stimulus,presented,1
+33660,Stimulus,presented,21
+34573,Keyboard,received,1073741903,wait
+34578,Stimulus,presented,1
+35581,Stimulus,presented,14
+35986,Keyboard,received,1073741904,wait
+35989,Stimulus,presented,1
+36992,Stimulus,presented,13
+37321,Keyboard,received,1073741904,wait
+37324,Stimulus,presented,1
+38328,Stimulus,presented,16
+38835,Keyboard,received,1073741904,wait
+38838,Stimulus,presented,1
+39841,Stimulus,presented,17
+40389,Keyboard,received,1073741904,wait
+40393,Stimulus,presented,1
+41396,Stimulus,presented,12
+41889,Keyboard,received,1073741903,wait
+41892,Stimulus,presented,1
+42895,Stimulus,presented,19
+43322,Keyboard,received,1073741903,wait
+43326,Stimulus,presented,1
+44330,Stimulus,presented,15
+44758,Keyboard,received,1073741904,wait
+44762,Stimulus,presented,1
+45765,Stimulus,presented,18
+46089,Keyboard,received,1073741903,wait
+46092,Stimulus,presented,1
+47095,Stimulus,presented,20
+47475,Keyboard,received,1073741903,wait
+47494,Stimulus,presented,25
+50508,Keyboard,received,13,wait
+50513,Stimulus,presented,1
+51516,Stimulus,presented,7
+52172,Keyboard,received,1073741903,wait
+52176,Stimulus,presented,1
+53180,Stimulus,presented,10
+53800,Keyboard,received,1073741904,wait
+53804,Stimulus,presented,1
+54807,Stimulus,presented,3
+55468,Keyboard,received,1073741903,wait
+55471,Stimulus,presented,1
+56475,Stimulus,presented,8
+57059,Keyboard,received,1073741904,wait
+57062,Stimulus,presented,1
+58066,Stimulus,presented,4
+58718,Keyboard,received,1073741903,wait
+58722,Stimulus,presented,1
+59726,Stimulus,presented,11
+60173,Keyboard,received,1073741903,wait
+60176,Stimulus,presented,1
+61179,Stimulus,presented,5
+61620,Keyboard,received,1073741903,wait
+61623,Stimulus,presented,1
+62627,Stimulus,presented,2
+63072,Keyboard,received,1073741904,wait
+63076,Stimulus,presented,1
+64081,Stimulus,presented,9
+64423,Keyboard,received,1073741904,wait
+64426,Stimulus,presented,1
+65429,Stimulus,presented,6
+65816,Keyboard,received,1073741904,wait
+65816,Experiment,ended
+65829,Data,saved
+65835,Stimulus,presented,26
+68965,stdout,received,'** Expyriment Data Preprocessor **'
+68984,stdout,received,'found 6 subject_data sets'
+68985,stdout,received,"found 5 variables: ['subject_id', 'Position', 'Correct_Click', 'Button', 'Time']"
+68987,stdout,received,'   reading ./data\\basic_python_experiment_04_202208052148.xpd'
+68988,stdout,received,'   reading ./data\\basic_python_experiment_05_202208052156.xpd'
+68990,stdout,received,'   reading ./data\\basic_python_experiment_07_202208052200.xpd'
+68991,stdout,received,'   reading ./data\\basic_python_experiment_08_202208052201.xpd'
+68992,stdout,received,'   reading ./data\\basic_python_experiment_09_202208052205.xpd'
+68994,stdout,received,'   reading ./data\\basic_python_experiment_10_202208052207.xpd'
+68997,stdout,received,'write file: python_experiment_to_csv.csv (600 cells in 120 rows)'
+69037,stdout,received,'    Subject ID Position Correct Key      Button     RT\n1            4    right        True  1073741904  346.0\n2            4    right        True  1073741904  324.0\n3            4     left        True  1073741904  375.0\n4            4     left        True  1073741904  357.0\n5            4    right       False  1073741903  346.0\n..         ...      ...         ...         ...    ...\n116         10    right       False  1073741903  445.0\n117         10     left       False  1073741903  439.0\n118         10     left        True  1073741904  444.0\n119         10    right        True  1073741904  341.0\n120         10     left        True  1073741904  385.0\n\n[120 rows x 5 columns]'
+69039,stdout,received,"['Subject ID', 'Position', 'Correct Key', 'Button', 'RT']"
+69049,stdout,received,'433.5'
+69051,stdout,received,'510.44166666666666'
+69060,stdout,received,'count     120.000000\nmean      510.441667\nstd       280.021092\nmin       288.000000\n25%       367.500000\n50%       433.500000\n75%       574.750000\nmax      2336.000000\nName: RT, dtype: float64'
+69073,stdout,received,'                RT\ncount   120.000000\nmean    510.441667\nstd     280.021092\nmin     288.000000\n25%     367.500000\n50%     433.500000\n75%     574.750000\nmax    2336.000000'
