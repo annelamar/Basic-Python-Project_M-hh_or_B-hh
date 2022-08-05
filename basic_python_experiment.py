@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # Create and initialize an Experiment
 exp = design.Experiment("Mähh and Bähh")
 control.initialize(exp)
-stimuli.TextScreen("","Welcome to our experiment. This is loosely based off the Simons effect. To read more: https://en.wikipedia.org/wiki/Simon_effect#:~:text=A%20typical%20demonstration%20of%20the%20Simon%20effect%20involves,on%20the%20left%20when%20they%20see%20something%20green. You will be presented with images of either goats or sheep. React as quickly as possible. Please read the instructions beforehand carefully. Press Enter until Experiment starts. Have fun!").present
+#stimuli.TextScreen("","Welcome to our experiment. This is loosely based off the Simons effect. To read more: https://en.wikipedia.org/wiki/Simon_effect#:~:text=A%20typical%20demonstration%20of%20the%20Simon%20effect%20involves,on%20the%20left%20when%20they%20see%20something%20green. You will be presented with images of either goats or sheep. React as quickly as possible. Please read the instructions beforehand carefully. Press Enter until Experiment starts. Have fun!").present
 
 
 # Define and preload standard stimuli
@@ -67,6 +67,7 @@ exp.data_variable_names = ["Position", "Correct_Click", "Button", "Time"]
 control.start()
 exp.permute_blocks(misc.constants.P_BALANCED_LATIN_SQUARE)
 for block in exp.blocks:
+    stimuli.TextScreen("","Welcome to our experiment. This is loosely based off the Simons effect. To read more: https://en.wikipedia.org/wiki/Simon_effect#:~:text=A%20typical%20demonstration%20of%20the%20Simon%20effect%20involves,on%20the%20left%20when%20they%20see%20something%20green. You will be presented with images of either goats or sheep. React as quickly as possible. Please read the instructions beforehand carefully. Press Enter until Experiment starts. Have fun!", block.get_factor("Response")).present()
     stimuli.TextScreen("Instructions", block.get_factor("Response")).present()
     response_device.wait()
     # making sure the correct key is pressed 

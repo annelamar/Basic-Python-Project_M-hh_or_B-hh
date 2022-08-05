@@ -1,0 +1,82 @@
+#Expyriment 0.10.0 (Python 3.9.7), .xpe-file, coding: cp1252
+#date: Fri Aug 05 2022 22:30:47
+#sha1: 0ae512
+#modules: 
+#display: size=(1440, 900), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-B8ESPDO', release='10', version='10.0.22000', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3525,Picture,loaded,higherHans.jpg
+3529,Picture,loaded,higherHans.jpg
+3542,Picture,loaded,Ingridtanzt2.jpg
+3546,Picture,loaded,Ingridtanzt2.jpg
+3551,Picture,loaded,higherHans.jpg
+3554,Picture,loaded,higherHans.jpg
+3560,Picture,loaded,frecherFranz.jpg
+3563,Picture,loaded,frecherFranz.jpg
+3569,Picture,loaded,frecherFranz.jpg
+3572,Picture,loaded,frecherFranz.jpg
+3578,Picture,loaded,frecherFranz.jpg
+3582,Picture,loaded,frecherFranz.jpg
+3587,Picture,loaded,markusLanz.jpg
+3590,Picture,loaded,markusLanz.jpg
+3595,Picture,loaded,markusLanz.jpg
+3599,Picture,loaded,markusLanz.jpg
+3603,Picture,loaded,frecherFranz.jpg
+3607,Picture,loaded,frecherFranz.jpg
+3612,Picture,loaded,markusLanz.jpg
+3616,Picture,loaded,markusLanz.jpg
+3621,Picture,loaded,Ingridtanzt2.jpg
+3625,Picture,loaded,Ingridtanzt2.jpg
+3630,Picture,loaded,frecherFranz.jpg
+3633,Picture,loaded,frecherFranz.jpg
+3638,Picture,loaded,higherHans.jpg
+3641,Picture,loaded,higherHans.jpg
+3647,Picture,loaded,Ingridtanzt2.jpg
+3651,Picture,loaded,Ingridtanzt2.jpg
+3656,Picture,loaded,higherHans.jpg
+3659,Picture,loaded,higherHans.jpg
+3664,Picture,loaded,frecherFranz.jpg
+3668,Picture,loaded,frecherFranz.jpg
+3675,Picture,loaded,markusLanz.jpg
+3680,Picture,loaded,markusLanz.jpg
+3685,Picture,loaded,Ingridtanzt2.jpg
+3689,Picture,loaded,Ingridtanzt2.jpg
+3694,Picture,loaded,markusLanz.jpg
+3698,Picture,loaded,markusLanz.jpg
+3703,Picture,loaded,higherHans.jpg
+3707,Picture,loaded,higherHans.jpg
+11478,design,log,
+#design: #exp: Mähh and Bähh
+#design: #bws: ResponseMapping=1,2
+#design: #bws-rand: 0
+#design: #dvn: Position,Correct_Click,Button,Time
+#design: block_cnt,block_id,block_Response,trial_cnt,trial_id,Position
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,0,9,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,1,5,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,2,8,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,3,6,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,4,1,left
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,5,7,right
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,6,0,left
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,7,2,left
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,8,3,left
+#design: 0,0,Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.,9,4,left
+#design: 1,1,Press the left arrow key if a sheep is shown,0,3,left
+#design: 1,1,Press the left arrow key if a sheep is shown,1,1,left
+#design: 1,1,Press the left arrow key if a sheep is shown,2,4,left
+#design: 1,1,Press the left arrow key if a sheep is shown,3,6,right
+#design: 1,1,Press the left arrow key if a sheep is shown,4,5,right
+#design: 1,1,Press the left arrow key if a sheep is shown,5,8,right
+#design: 1,1,Press the left arrow key if a sheep is shown,6,2,left
+#design: 1,1,Press the left arrow key if a sheep is shown,7,9,right
+#design: 1,1,Press the left arrow key if a sheep is shown,8,7,right
+#design: 1,1,Press the left arrow key if a sheep is shown,9,0,left
+11479,design,logged,
+11479,Experiment,started
+11504,Stimulus,presented,23
+11526,Stimulus,presented,24
+19495,Experiment,paused
+19502,Stimulus,presented,25
+20103,Keyboard,received,y,wait_char
+20103,Experiment,ended
+20122,Stimulus,presented,25
