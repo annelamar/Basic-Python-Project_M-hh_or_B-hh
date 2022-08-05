@@ -9,7 +9,6 @@ Our program is loosely based on the Simons effect which states that a response t
 
 - Additional modules that have to be downloaded: expyriment (“pip install –no-deps               expyriment”), pandas (“pip install pandas”), matplot, keyboard
 - Command for executing the program: run
-- Reusable functions ??
 - Changing paths in code if neccessary
 
 
@@ -21,7 +20,7 @@ The main thing that we had to work with during our project was expyriment, which
 
 What further additions could be made?
 
-We could have added more stimuli and to make it more interactive some audio as well. Our plotting could have been more advanced with saving each result to a database and having a visualisation of the performance of the individual participant in relation to the average from the database
+We could have added more stimuli and to make it more interactive some audio as well. Our plotting could have been more advanced. An idea we had would be to plot a graph for each participant’s reaction time and check if the click was correct with colours or an error bar. Sorting the correct click column to true and false would also be another possibly, as the simons effect is calculated as the difference between the reaction time of the congruent and the reaction time of the incongruent data. So by sorting the correct click columns and connecting it to the reaction time, a linear graph with the simons effect could be created.
 
 - Additional things we learned: expyriment, pandas, working with images and data (paths),     working with csv in more depth, using keyboard as respoonse device,…
 - Challenges we faced: installation, including images, turning xpd to csv, plotting
