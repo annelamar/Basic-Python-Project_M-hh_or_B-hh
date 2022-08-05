@@ -1,0 +1,43 @@
+#Expyriment 0.10.0 (Python 3.9.7), .xpd-file, coding: cp1252
+#date: Fri Aug 05 2022 21:56:35
+#--EXPERIMENT INFO
+#e mainfile: basic_python_experiment.py
+#e sha1: 807814
+#e modules: 
+#e Experiment: Mähh and Bähh
+#e between subject factors (permutation type: latin square)
+#e     ResponseMapping = [1, 2]
+#e Block 0: unnamed
+#e     block factors: Response = Press the left arrow key if a goat is shown. Otherwise, press the right arrow key.
+#e     n trials: 10
+#e     trial factors: Position = [left, right]
+#e                    
+#e Block 1: unnamed
+#e     block factors: Response = Press the left arrow key if a sheep is shown
+#e     n trials: 10
+#e     trial factors: Position = [left, right]
+#e                    
+#--SUBJECT INFO
+#s id: 5
+#s ResponseMapping = 1
+subject_id,Position,Correct_Click,Button,Time
+5,right,True,1073741904,759
+5,left,False,1073741903,561
+5,left,False,1073741903,625
+5,left,True,1073741904,828
+5,right,True,1073741904,794
+5,right,False,1073741903,710
+5,left,True,1073741904,676
+5,right,False,1073741903,634
+5,right,False,1073741903,548
+5,left,True,1073741904,501
+5,left,False,1073741903,518
+5,right,False,1073741903,688
+5,left,False,1073741903,666
+5,right,True,1073741904,534
+5,left,True,1073741904,625
+5,left,True,1073741904,675
+5,right,True,1073741904,822
+5,left,False,1073741903,702
+5,right,True,1073741904,564
+5,right,True,1073741904,630

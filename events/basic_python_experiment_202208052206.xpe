@@ -1,0 +1,7 @@
+#Expyriment 0.10.0 (Python 3.9.7), .xpe-file, coding: cp1252
+#date: Fri Aug 05 2022 22:06:25
+#sha1: 807814
+#modules: 
+#display: size=(1440, 900), window_mode=False, open_gl=2
+#os: uname_result(system='Windows', node='DESKTOP-B8ESPDO', release='10', version='10.0.22000', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
